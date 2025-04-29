@@ -1,3 +1,7 @@
+from flask import Flask
+app = Flask(__name__)
+
+
 from function import *
 from keras.utils import to_categorical
 from keras.models import model_from_json
@@ -96,3 +100,9 @@ with mp_hands.Hands(
             break
     cap.release()
     cv2.destroyAllWindows()
+
+import os
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
