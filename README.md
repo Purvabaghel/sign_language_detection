@@ -24,10 +24,6 @@ matplotlib>=3.4.2
 seaborn>=0.11.1
 tqdm>=4.41.0
 ```
-git clone https://github.com/Purvabaghel/sign_language_detection.git
-cd sign_language_detection
-pip install -r requirements.txt
-wget -O models/best.pt "YOUR_MODEL_DOWNLOAD_LINK"
 
 sign_language_detection/
 ├── app/                  # Streamlit web interface
