@@ -25,20 +25,6 @@ seaborn>=0.11.1
 tqdm>=4.41.0
 ```
 
-sign_language_detection/
-├── app/                  # Streamlit web interface
-│   ├── main.py           # Core application
-│   └── utils.py          # Helper functions
-├── models/               # Model files
-│   └── best.pt           # Pretrained weights
-├── data/                 # Dataset
-│   ├── images/           # Test images
-│   └── data.yaml         # YOLO config
-├── notebooks/            # Training notebooks
-├── detect.py             # CLI detection script
-├── train.py              # Training script
-├── requirements.txt      # Dependencies
-└── README.md
 
 streamlit run app/main.py
 
@@ -103,3 +89,8 @@ Simply copy this entire block into your project's README.md file and:
 1. Replace `YOUR_MODEL_DOWNLOAD_LINK` with your actual model URL
 2. Add a demo.gif if available
 3. Update license if different from MIT
+
+##Authors 
+**Purva Baghel**
+**Suhani Gahukar**
+**Soham Shrawankar**
