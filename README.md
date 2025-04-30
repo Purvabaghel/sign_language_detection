@@ -90,7 +90,7 @@ Simply copy this entire block into your project's README.md file and:
 2. Add a demo.gif if available
 3. Update license if different from MIT
 
-##Authors 
+## Authors 
 **Purva Baghel**
 **Suhani Gahukar**
 **Soham Shrawankar**
